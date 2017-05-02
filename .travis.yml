@@ -7,6 +7,7 @@ before_install:
   - bash Miniconda3-latest-MacOSX-x86_64.sh -b -p ~/install
   - export PATH=$HOME/install/bin:$PATH
   - conda install conda-build -y
+  - conda config --add channels conda-forge
 install:
   - conda build recipe
 
