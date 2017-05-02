@@ -1,0 +1,10 @@
+--- src/libutil/error.old.c	2017-05-02 15:42:05.000000000 -0400
++++ src/libutil/error.c	2017-05-02 13:38:03.000000000 -0400
+@@ -31,6 +31,7 @@
+ #include "gluos.h"
+ #include "gluint.h"
+ #include <GL/glu.h>
++#include <stddef.h>
+ 
+ 
+ struct token_string
