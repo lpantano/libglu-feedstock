@@ -1,0 +1,10 @@
+language: "generic"
+os: "osx"
+osx_image: "xcode6.4"
+sudo: false
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+  - bash Miniconda-latest-Linux-x86_64.sh -b -p ~/install
+install:
+  - conda build recipe
+
