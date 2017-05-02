@@ -5,11 +5,12 @@ package:
 source:
     fn: glu-9.0.0.tar.gz
     url: ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.gz
+# path: /Users/lpantano/repos/libglu-feedstock/glu-9.0.0
     md5: bbc57d4fe3bd3fb095bdbef6fcb977c4
 
 build:
   number: 0
-  skip: True  # [win or osx]
+  skip: True  # [win]
 
 requirements:
     build:
